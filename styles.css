@@ -910,14 +910,9 @@ footer {
     display: none;
 }
 
-@media screen and (max-width:360px)
-and (min-device-width: 375px) and (max-device-height: 667px)
-and (min-device-width: 414px) and (max-device-height: 736px)
-and (min-device-width: 375px) and (max-device-height: 812px)
-and (min-device-width : 414px) and (max-device-height : 896px)
-and (min-device-width : 414px) and (max-device-height : 896px) {
+@media screen and (min-width: 360px) {
     body {
-        width: 360px;
+        width: auto;
         overflow-x: hidden;
         background-image: url(./img/Wave-for-section-1.png);
         background-repeat: no-repeat;
