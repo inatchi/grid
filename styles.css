@@ -690,11 +690,11 @@ main .section-1 .bottom-right-column .bottom-last-right {
 }
 
 .free {
-    margin-top: 24px;
+    margin-top: 120px;
 }
 
 .corporate{
-    margin-top: 24px;
+    margin-top: 70px;
 }
 
 .free::after {
@@ -899,7 +899,7 @@ footer {
 }
 
 .enterprise .desktop-h {
-    display: block;
+    display: flex;
 }
 
 .enterprise .desktop,
@@ -922,7 +922,9 @@ footer {
 .social-media-icons .mobile,
 .enterprise .mobile-h,
 .enterprise .mobile,
-.mobile-pic {
+.mobile-pic,
+.mobile-small,
+.wow-mark {
     display: none;
 }
 
@@ -1472,6 +1474,10 @@ footer {
         
     }
 
+    .mobile-small {
+        display: block;
+    }
+
     small {
         font-size: large;
     }
@@ -1638,6 +1644,11 @@ footer {
         display: flex;
         align-items: center;
         letter-spacing: 0.2px;
+    }
+
+    .select-mark,
+    .start-today-mark {
+        margin-top: 24px;
     }
 
     .select-mark::after {
